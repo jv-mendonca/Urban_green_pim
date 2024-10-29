@@ -11,6 +11,8 @@
     <RootNamespace>tela_de_logins</RootNamespace>
     <AnalysisLevel>none</AnalysisLevel>
     <OutputType>WinExe</OutputType>
+    <ApplicationVisualStyles>true</ApplicationVisualStyles>
+    <EnableWindowsFormsHighDpiAutoResizing>true</EnableWindowsFormsHighDpiAutoResizing>
   </PropertyGroup>
 
   <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|AnyCPU'">
