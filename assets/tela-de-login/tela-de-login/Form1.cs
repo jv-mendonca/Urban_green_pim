@@ -1,16 +1,13 @@
-    using System;
-    using System.Windows.Forms;
-    using System.Runtime.InteropServices;
-    using System.Drawing;
-    using System.Drawing.Drawing2D;
-    using System.Diagnostics;
-    using Microsoft.Data.SqlClient;
-    using Redefinir_Senha;
-    using TelasDeCadastro;
+using Microsoft.Data.SqlClient;
+using Redefinir_Senha;
+using System.Diagnostics;
+using System.Drawing.Drawing2D;
+using System.Runtime.InteropServices;
 using tela_de_logins; // Importando o namespace onde está a classe BancoDeDados
+using TelasDeCadastro;
 
-    namespace tela_de_login
-    {
+namespace tela_de_login
+{
     public partial class Form1 : Form
     {
         private string nomeBanco = "fazenda_urbana_Urban_Green_pim4"; // Nome do banco de dados

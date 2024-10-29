@@ -3,24 +3,55 @@
   "WorkspaceRootPath": "C:\\testePim\\urban_Green\\assets\\tela-de-login\\",
   "Documents": [
     {
+      "AbsoluteMoniker": "D:0:0:{AEC13F23-1434-4C52-BADC-195D9DAD2D54}|tela-de-login\\tela-de-login.csproj|c:\\testepim\\urban_green\\assets\\tela-de-login\\tela-de-login\\tela-inicial-do-programa\\tela_inicial_do_programa\\tela-inicial-dashboard.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{AEC13F23-1434-4C52-BADC-195D9DAD2D54}|tela-de-login\\tela-de-login.csproj|solutionrelative:tela-de-login\\tela-inicial-do-programa\\tela_inicial_do_programa\\tela-inicial-dashboard.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    },
+    {
       "AbsoluteMoniker": "D:0:0:{AEC13F23-1434-4C52-BADC-195D9DAD2D54}|tela-de-login\\tela-de-login.csproj|c:\\testepim\\urban_green\\assets\\tela-de-login\\tela-de-login\\tela-inicial-do-programa\\tela_inicial_do_programa\\tela-inicial-dashboard.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{AEC13F23-1434-4C52-BADC-195D9DAD2D54}|tela-de-login\\tela-de-login.csproj|solutionrelative:tela-de-login\\tela-inicial-do-programa\\tela_inicial_do_programa\\tela-inicial-dashboard.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{AEC13F23-1434-4C52-BADC-195D9DAD2D54}|tela-de-login\\tela-de-login.csproj|C:\\testePim\\urban_Green\\assets\\tela-de-login\\tela-de-login\\tela-inicial-do-programa\\tela_inicial_do_programa\\tela-inicial-dashboard.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
-      "RelativeMoniker": "D:0:0:{AEC13F23-1434-4C52-BADC-195D9DAD2D54}|tela-de-login\\tela-de-login.csproj|solutionrelative:tela-de-login\\tela-inicial-do-programa\\tela_inicial_do_programa\\tela-inicial-dashboard.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+      "AbsoluteMoniker": "D:0:0:{AEC13F23-1434-4C52-BADC-195D9DAD2D54}|tela-de-login\\tela-de-login.csproj|c:\\testepim\\urban_green\\assets\\tela-de-login\\tela-de-login\\form1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{AEC13F23-1434-4C52-BADC-195D9DAD2D54}|tela-de-login\\tela-de-login.csproj|solutionrelative:tela-de-login\\form1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{AEC13F23-1434-4C52-BADC-195D9DAD2D54}|tela-de-login\\tela-de-login.csproj|C:\\testePim\\urban_Green\\assets\\tela-de-login\\tela-de-login\\form1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{AEC13F23-1434-4C52-BADC-195D9DAD2D54}|tela-de-login\\tela-de-login.csproj|solutionrelative:tela-de-login\\form1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{AEC13F23-1434-4C52-BADC-195D9DAD2D54}|tela-de-login\\tela-de-login.csproj|c:\\testepim\\urban_green\\assets\\tela-de-login\\tela-de-login\\tela-de-login.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|",
+      "RelativeMoniker": "D:0:0:{AEC13F23-1434-4C52-BADC-195D9DAD2D54}|tela-de-login\\tela-de-login.csproj|solutionrelative:tela-de-login\\tela-de-login.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{AEC13F23-1434-4C52-BADC-195D9DAD2D54}|tela-de-login\\tela-de-login.csproj|c:\\testepim\\urban_green\\assets\\tela-de-login\\tela-de-login\\tela-de-login.csproj||{04B8AB82-A572-4FEF-95CE-5222444B6B64}|",
+      "RelativeMoniker": "D:0:0:{AEC13F23-1434-4C52-BADC-195D9DAD2D54}|tela-de-login\\tela-de-login.csproj|solutionrelative:tela-de-login\\tela-de-login.csproj||{04B8AB82-A572-4FEF-95CE-5222444B6B64}|"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{AEC13F23-1434-4C52-BADC-195D9DAD2D54}|tela-de-login\\tela-de-login.csproj|C:\\testePim\\urban_Green\\assets\\tela-de-login\\tela-de-login\\telasdecadastro\\page1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{AEC13F23-1434-4C52-BADC-195D9DAD2D54}|tela-de-login\\tela-de-login.csproj|solutionrelative:tela-de-login\\telasdecadastro\\page1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{AEC13F23-1434-4C52-BADC-195D9DAD2D54}|tela-de-login\\tela-de-login.csproj|c:\\testepim\\urban_green\\assets\\tela-de-login\\tela-de-login\\leaf-nature-forest-brand-plant_icon-icons.com_59259.ico||{177559E0-D141-11D0-92DF-00A0C9138C45}",
+      "RelativeMoniker": "D:0:0:{AEC13F23-1434-4C52-BADC-195D9DAD2D54}|tela-de-login\\tela-de-login.csproj|solutionrelative:tela-de-login\\leaf-nature-forest-brand-plant_icon-icons.com_59259.ico||{177559E0-D141-11D0-92DF-00A0C9138C45}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Nova pasta\\.vs\\ProjectSettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{AEC13F23-1434-4C52-BADC-195D9DAD2D54}|tela-de-login\\tela-de-login.csproj|c:\\testepim\\urban_green\\assets\\tela-de-login\\tela-de-login\\telasdecadastro\\page1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{AEC13F23-1434-4C52-BADC-195D9DAD2D54}|tela-de-login\\tela-de-login.csproj|solutionrelative:tela-de-login\\telasdecadastro\\page1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{AEC13F23-1434-4C52-BADC-195D9DAD2D54}|tela-de-login\\tela-de-login.csproj|c:\\testepim\\urban_green\\assets\\tela-de-login\\tela-de-login\\tela-inicial-do-programa\\tela_inicial_do_programa\\tela-inicial-dashboard.designer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{AEC13F23-1434-4C52-BADC-195D9DAD2D54}|tela-de-login\\tela-de-login.csproj|solutionrelative:tela-de-login\\tela-inicial-do-programa\\tela_inicial_do_programa\\tela-inicial-dashboard.designer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{AEC13F23-1434-4C52-BADC-195D9DAD2D54}|tela-de-login\\tela-de-login.csproj|c:\\testepim\\urban_green\\assets\\tela-de-login\\tela-de-login\\telasdecadastro\\page4.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{AEC13F23-1434-4C52-BADC-195D9DAD2D54}|tela-de-login\\tela-de-login.csproj|solutionrelative:tela-de-login\\telasdecadastro\\page4.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{AEC13F23-1434-4C52-BADC-195D9DAD2D54}|tela-de-login\\tela-de-login.csproj|c:\\testepim\\urban_green\\assets\\tela-de-login\\tela-de-login\\tela-de-login.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|",
-      "RelativeMoniker": "D:0:0:{AEC13F23-1434-4C52-BADC-195D9DAD2D54}|tela-de-login\\tela-de-login.csproj|solutionrelative:tela-de-login\\tela-de-login.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|"
+      "AbsoluteMoniker": "D:0:0:{AEC13F23-1434-4C52-BADC-195D9DAD2D54}|tela-de-login\\tela-de-login.csproj|c:\\testepim\\urban_green\\assets\\tela-de-login\\tela-de-login\\telasdecadastro\\page5.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{AEC13F23-1434-4C52-BADC-195D9DAD2D54}|tela-de-login\\tela-de-login.csproj|solutionrelative:tela-de-login\\telasdecadastro\\page5.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{AEC13F23-1434-4C52-BADC-195D9DAD2D54}|tela-de-login\\tela-de-login.csproj|c:\\testepim\\urban_green\\assets\\tela-de-login\\tela-de-login\\tela-inicial-do-programa\\tela_inicial_do_programa\\tela-inicial-dashboard.designer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{AEC13F23-1434-4C52-BADC-195D9DAD2D54}|tela-de-login\\tela-de-login.csproj|solutionrelative:tela-de-login\\tela-inicial-do-programa\\tela_inicial_do_programa\\tela-inicial-dashboard.designer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{AEC13F23-1434-4C52-BADC-195D9DAD2D54}|tela-de-login\\tela-de-login.csproj|c:\\testepim\\urban_green\\assets\\tela-de-login\\tela-de-login\\redefinir-senha\\redefinir senha\\alterarsenha.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
@@ -54,20 +85,8 @@
       "RelativeMoniker": "D:0:0:{AEC13F23-1434-4C52-BADC-195D9DAD2D54}|tela-de-login\\tela-de-login.csproj|solutionrelative:tela-de-login\\telasdecadastro\\page5.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{AEC13F23-1434-4C52-BADC-195D9DAD2D54}|tela-de-login\\tela-de-login.csproj|c:\\testepim\\urban_green\\assets\\tela-de-login\\tela-de-login\\telasdecadastro\\page5.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{AEC13F23-1434-4C52-BADC-195D9DAD2D54}|tela-de-login\\tela-de-login.csproj|solutionrelative:tela-de-login\\telasdecadastro\\page5.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
       "AbsoluteMoniker": "D:0:0:{AEC13F23-1434-4C52-BADC-195D9DAD2D54}|tela-de-login\\tela-de-login.csproj|C:\\testePim\\urban_Green\\assets\\tela-de-login\\tela-de-login\\telasdecadastro\\page4.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
       "RelativeMoniker": "D:0:0:{AEC13F23-1434-4C52-BADC-195D9DAD2D54}|tela-de-login\\tela-de-login.csproj|solutionrelative:tela-de-login\\telasdecadastro\\page4.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{AEC13F23-1434-4C52-BADC-195D9DAD2D54}|tela-de-login\\tela-de-login.csproj|c:\\testepim\\urban_green\\assets\\tela-de-login\\tela-de-login\\tela-de-login.csproj||{04B8AB82-A572-4FEF-95CE-5222444B6B64}|",
-      "RelativeMoniker": "D:0:0:{AEC13F23-1434-4C52-BADC-195D9DAD2D54}|tela-de-login\\tela-de-login.csproj|solutionrelative:tela-de-login\\tela-de-login.csproj||{04B8AB82-A572-4FEF-95CE-5222444B6B64}|"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{AEC13F23-1434-4C52-BADC-195D9DAD2D54}|tela-de-login\\tela-de-login.csproj|c:\\testepim\\urban_green\\assets\\tela-de-login\\tela-de-login\\form1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{AEC13F23-1434-4C52-BADC-195D9DAD2D54}|tela-de-login\\tela-de-login.csproj|solutionrelative:tela-de-login\\form1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\MSBuild\\Current\\Bin\\amd64\\Microsoft.Common.CurrentVersion.targets||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|"
@@ -97,24 +116,12 @@
       "RelativeMoniker": "D:0:0:{AEC13F23-1434-4C52-BADC-195D9DAD2D54}|tela-de-login\\tela-de-login.csproj|solutionrelative:tela-de-login\\redefinir-senha\\redefinir senha\\criar_nova_senha.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{AEC13F23-1434-4C52-BADC-195D9DAD2D54}|tela-de-login\\tela-de-login.csproj|c:\\testepim\\urban_green\\assets\\tela-de-login\\tela-de-login\\telasdecadastro\\page4.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{AEC13F23-1434-4C52-BADC-195D9DAD2D54}|tela-de-login\\tela-de-login.csproj|solutionrelative:tela-de-login\\telasdecadastro\\page4.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
       "AbsoluteMoniker": "D:0:0:{AEC13F23-1434-4C52-BADC-195D9DAD2D54}|tela-de-login\\tela-de-login.csproj|c:\\testepim\\urban_green\\assets\\tela-de-login\\tela-de-login\\redefinir-senha\\redefinir senha\\alterarsenha.designer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{AEC13F23-1434-4C52-BADC-195D9DAD2D54}|tela-de-login\\tela-de-login.csproj|solutionrelative:tela-de-login\\redefinir-senha\\redefinir senha\\alterarsenha.designer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{AEC13F23-1434-4C52-BADC-195D9DAD2D54}|tela-de-login\\tela-de-login.csproj|C:\\testePim\\urban_Green\\assets\\tela-de-login\\tela-de-login\\redefinir-senha\\redefinir senha\\criar_nova_senha.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
       "RelativeMoniker": "D:0:0:{AEC13F23-1434-4C52-BADC-195D9DAD2D54}|tela-de-login\\tela-de-login.csproj|solutionrelative:tela-de-login\\redefinir-senha\\redefinir senha\\criar_nova_senha.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{AEC13F23-1434-4C52-BADC-195D9DAD2D54}|tela-de-login\\tela-de-login.csproj|C:\\testePim\\urban_Green\\assets\\tela-de-login\\tela-de-login\\form1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
-      "RelativeMoniker": "D:0:0:{AEC13F23-1434-4C52-BADC-195D9DAD2D54}|tela-de-login\\tela-de-login.csproj|solutionrelative:tela-de-login\\form1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{AEC13F23-1434-4C52-BADC-195D9DAD2D54}|tela-de-login\\tela-de-login.csproj|C:\\testePim\\urban_Green\\assets\\tela-de-login\\tela-de-login\\telasdecadastro\\page1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
-      "RelativeMoniker": "D:0:0:{AEC13F23-1434-4C52-BADC-195D9DAD2D54}|tela-de-login\\tela-de-login.csproj|solutionrelative:tela-de-login\\telasdecadastro\\page1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
     },
     {
       "AbsoluteMoniker": "D:0:0:{AEC13F23-1434-4C52-BADC-195D9DAD2D54}|tela-de-login\\tela-de-login.csproj|C:\\testePim\\urban_Green\\assets\\tela-de-login\\tela-de-login\\telasdecadastro\\page3.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
@@ -140,18 +147,11 @@
       "RelativeMoniker": "D:0:0:{AEC13F23-1434-4C52-BADC-195D9DAD2D54}|tela-de-login\\tela-de-login.csproj|solutionrelative:tela-de-login\\telasdecadastro\\page5.designer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Nova pasta\\.vs\\ProjectSettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
-    },
-    {
       "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Nova pasta\\Urban-Green-Project-Pim\\.vs\\ProjectSettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\testePim\\urban_Green\\assets\\tela-de-login\\tela-de-login\\.vs\\ProjectSettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
       "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:tela-de-login\\.vs\\ProjectSettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{AEC13F23-1434-4C52-BADC-195D9DAD2D54}|tela-de-login\\tela-de-login.csproj|c:\\testepim\\urban_green\\assets\\tela-de-login\\tela-de-login\\leaf-nature-forest-brand-plant_icon-icons.com_59259.ico||{177559E0-D141-11D0-92DF-00A0C9138C45}",
-      "RelativeMoniker": "D:0:0:{AEC13F23-1434-4C52-BADC-195D9DAD2D54}|tela-de-login\\tela-de-login.csproj|solutionrelative:tela-de-login\\leaf-nature-forest-brand-plant_icon-icons.com_59259.ico||{177559E0-D141-11D0-92DF-00A0C9138C45}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{AEC13F23-1434-4C52-BADC-195D9DAD2D54}|tela-de-login\\tela-de-login.csproj|c:\\testepim\\urban_green\\assets\\tela-de-login\\tela-de-login\\telasdecadastro\\img\\check.png||{177559E0-D141-11D0-92DF-00A0C9138C45}",
@@ -180,11 +180,11 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 8,
+          "SelectedChildIndex": 36,
           "Children": [
             {
               "$type": "Document",
-              "DocumentIndex": 23,
+              "DocumentIndex": 28,
               "Title": "Criar_Nova_Senha.cs",
               "DocumentMoniker": "C:\\testePim\\urban_Green\\assets\\tela-de-login\\tela-de-login\\Redefinir-Senha\\Redefinir Senha\\Criar_Nova_Senha.cs",
               "RelativeDocumentMoniker": "tela-de-login\\Redefinir-Senha\\Redefinir Senha\\Criar_Nova_Senha.cs",
@@ -198,13 +198,13 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 16,
+              "DocumentIndex": 2,
               "Title": "Form1.cs",
               "DocumentMoniker": "C:\\testePim\\urban_Green\\assets\\tela-de-login\\tela-de-login\\Form1.cs",
               "RelativeDocumentMoniker": "tela-de-login\\Form1.cs",
               "ToolTip": "C:\\testePim\\urban_Green\\assets\\tela-de-login\\tela-de-login\\Form1.cs",
               "RelativeToolTip": "tela-de-login\\Form1.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA8AAAAjAAAAAAAAAA==",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABAAAAAiAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-10-10T01:14:43.391Z",
               "IsPinned": true,
@@ -212,7 +212,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 2,
+              "DocumentIndex": 9,
               "Title": "Page1.cs",
               "DocumentMoniker": "C:\\testePim\\urban_Green\\assets\\tela-de-login\\tela-de-login\\TelasDeCadastro\\Page1.cs",
               "RelativeDocumentMoniker": "tela-de-login\\TelasDeCadastro\\Page1.cs",
@@ -226,7 +226,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 5,
+              "DocumentIndex": 13,
               "Title": "alterarSenha.cs",
               "DocumentMoniker": "C:\\testePim\\urban_Green\\assets\\tela-de-login\\tela-de-login\\Redefinir-Senha\\Redefinir Senha\\alterarSenha.cs",
               "RelativeDocumentMoniker": "tela-de-login\\Redefinir-Senha\\Redefinir Senha\\alterarSenha.cs",
@@ -240,7 +240,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 11,
+              "DocumentIndex": 19,
               "Title": "Page3.cs",
               "DocumentMoniker": "C:\\testePim\\urban_Green\\assets\\tela-de-login\\tela-de-login\\TelasDeCadastro\\Page3.cs",
               "RelativeDocumentMoniker": "tela-de-login\\TelasDeCadastro\\Page3.cs",
@@ -254,7 +254,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 24,
+              "DocumentIndex": 10,
               "Title": "Page4.cs",
               "DocumentMoniker": "C:\\testePim\\urban_Green\\assets\\tela-de-login\\tela-de-login\\TelasDeCadastro\\Page4.cs",
               "RelativeDocumentMoniker": "tela-de-login\\TelasDeCadastro\\Page4.cs",
@@ -268,7 +268,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 13,
+              "DocumentIndex": 11,
               "Title": "Page5.cs",
               "DocumentMoniker": "C:\\testePim\\urban_Green\\assets\\tela-de-login\\tela-de-login\\TelasDeCadastro\\Page5.cs",
               "RelativeDocumentMoniker": "tela-de-login\\TelasDeCadastro\\Page5.cs",
@@ -282,7 +282,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 6,
+              "DocumentIndex": 14,
               "Title": "bancoDadoscs.cs",
               "DocumentMoniker": "C:\\testePim\\urban_Green\\assets\\tela-de-login\\tela-de-login\\bancoDadoscs.cs",
               "RelativeDocumentMoniker": "tela-de-login\\bancoDadoscs.cs",
@@ -295,13 +295,13 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 0,
+              "DocumentIndex": 1,
               "Title": "Tela-Inicial-Dashboard.cs",
               "DocumentMoniker": "C:\\testePim\\urban_Green\\assets\\tela-de-login\\tela-de-login\\tela-inicial-do-programa\\tela_inicial_do_programa\\Tela-Inicial-Dashboard.cs",
               "RelativeDocumentMoniker": "tela-de-login\\tela-inicial-do-programa\\tela_inicial_do_programa\\Tela-Inicial-Dashboard.cs",
               "ToolTip": "C:\\testePim\\urban_Green\\assets\\tela-de-login\\tela-de-login\\tela-inicial-do-programa\\tela_inicial_do_programa\\Tela-Inicial-Dashboard.cs",
               "RelativeToolTip": "tela-de-login\\tela-inicial-do-programa\\tela_inicial_do_programa\\Tela-Inicial-Dashboard.cs",
-              "ViewState": "AgIAAPkAAAAAAAAAAAAqwPwAAAABAAAAAAAAAA==",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABYAAABQAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-10-27T13:57:58.274Z",
               "IsPinned": true,
@@ -312,12 +312,8 @@
               "Name": "ST:0:0:{aa2115a1-9712-457b-9047-dbb71ca2cdd2}"
             },
             {
-              "$type": "Bookmark",
-              "Name": "ST:0:0:{e5c86464-96be-4d7c-9a8b-abcb3bbf5f92}"
-            },
-            {
               "$type": "Document",
-              "DocumentIndex": 8,
+              "DocumentIndex": 16,
               "Title": "Microsoft.PackageDependencyResolution.targets",
               "DocumentMoniker": "C:\\Program Files\\dotnet\\sdk\\8.0.403\\Sdks\\Microsoft.NET.Sdk\\targets\\Microsoft.PackageDependencyResolution.targets",
               "RelativeDocumentMoniker": "..\\..\\..\\..\\Program Files\\dotnet\\sdk\\8.0.403\\Sdks\\Microsoft.NET.Sdk\\targets\\Microsoft.PackageDependencyResolution.targets",
@@ -329,7 +325,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 3,
+              "DocumentIndex": 12,
               "Title": "Tela-Inicial-Dashboard.Designer.cs",
               "DocumentMoniker": "C:\\testePim\\urban_Green\\assets\\tela-de-login\\tela-de-login\\tela-inicial-do-programa\\tela_inicial_do_programa\\Tela-Inicial-Dashboard.Designer.cs",
               "RelativeDocumentMoniker": "tela-de-login\\tela-inicial-do-programa\\tela_inicial_do_programa\\Tela-Inicial-Dashboard.Designer.cs",
@@ -342,7 +338,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 22,
+              "DocumentIndex": 27,
               "Title": "Program.cs",
               "DocumentMoniker": "C:\\testePim\\urban_Green\\assets\\tela-de-login\\tela-de-login\\tela-inicial-do-programa\\tela_inicial_do_programa\\Program.cs",
               "RelativeDocumentMoniker": "tela-de-login\\tela-inicial-do-programa\\tela_inicial_do_programa\\Program.cs",
@@ -360,14 +356,13 @@
               "RelativeDocumentMoniker": "tela-de-login\\tela-de-login.csproj",
               "ToolTip": "C:\\testePim\\urban_Green\\assets\\tela-de-login\\tela-de-login\\tela-de-login.csproj",
               "RelativeToolTip": "tela-de-login\\tela-de-login.csproj",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAABAAAAAeAAAAAAAAAA==",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAC8AAAAKAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000758|",
-              "WhenOpened": "2024-10-25T20:17:40.334Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-10-25T20:17:40.334Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 32,
+              "DocumentIndex": 34,
               "Title": ".NETCoreApp,Version=v8.0.AssemblyAttributes.cs",
               "DocumentMoniker": "C:\\testePim\\urban_Green\\assets\\tela-de-login\\tela-de-login\\obj\\Debug\\net8.0-windows10.0.26100.0\\.NETCoreApp,Version=v8.0.AssemblyAttributes.cs",
               "RelativeDocumentMoniker": "tela-de-login\\obj\\Debug\\net8.0-windows10.0.26100.0\\.NETCoreApp,Version=v8.0.AssemblyAttributes.cs",
@@ -390,19 +385,18 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 15,
+              "DocumentIndex": 5,
               "Title": "tela-de-login",
               "DocumentMoniker": "C:\\testePim\\urban_Green\\assets\\tela-de-login\\tela-de-login\\tela-de-login.csproj",
               "RelativeDocumentMoniker": "tela-de-login\\tela-de-login.csproj",
               "ToolTip": "C:\\testePim\\urban_Green\\assets\\tela-de-login\\tela-de-login\\tela-de-login.csproj",
               "RelativeToolTip": "tela-de-login\\tela-de-login.csproj",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000758|",
-              "WhenOpened": "2024-10-25T14:09:40.934Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-10-25T14:09:40.934Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 35,
+              "DocumentIndex": 8,
               "Title": "ProjectSettings.json",
               "DocumentMoniker": "C:\\Nova pasta\\.vs\\ProjectSettings.json",
               "RelativeDocumentMoniker": "..\\..\\..\\..\\Nova pasta\\.vs\\ProjectSettings.json",
@@ -413,7 +407,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 33,
+              "DocumentIndex": 35,
               "Title": "VSWorkspaceState.json",
               "DocumentMoniker": "C:\\Nova pasta\\Urban-Green-Project-Pim\\.vs\\VSWorkspaceState.json",
               "RelativeDocumentMoniker": "..\\..\\..\\..\\Nova pasta\\Urban-Green-Project-Pim\\.vs\\VSWorkspaceState.json",
@@ -424,7 +418,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 36,
+              "DocumentIndex": 37,
               "Title": "ProjectSettings.json",
               "DocumentMoniker": "C:\\Nova pasta\\Urban-Green-Project-Pim\\.vs\\ProjectSettings.json",
               "RelativeDocumentMoniker": "..\\..\\..\\..\\Nova pasta\\Urban-Green-Project-Pim\\.vs\\ProjectSettings.json",
@@ -435,7 +429,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 37,
+              "DocumentIndex": 38,
               "Title": "ProjectSettings.json",
               "DocumentMoniker": "C:\\testePim\\urban_Green\\assets\\tela-de-login\\tela-de-login\\.vs\\ProjectSettings.json",
               "RelativeDocumentMoniker": "tela-de-login\\.vs\\ProjectSettings.json",
@@ -447,7 +441,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 7,
+              "DocumentIndex": 15,
               "Title": "Resources.Designer.cs",
               "DocumentMoniker": "C:\\testePim\\urban_Green\\assets\\tela-de-login\\tela-de-login\\Properties\\Resources.Designer.cs",
               "RelativeDocumentMoniker": "tela-de-login\\Properties\\Resources.Designer.cs",
@@ -459,7 +453,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 38,
+              "DocumentIndex": 7,
               "Title": "leaf-nature-forest-brand-plant_icon-icons.com_59259.ico - Icon [128x128, 32 bits, BMP]",
               "DocumentMoniker": "C:\\testePim\\urban_Green\\assets\\tela-de-login\\tela-de-login\\leaf-nature-forest-brand-plant_icon-icons.com_59259.ico",
               "RelativeDocumentMoniker": "tela-de-login\\leaf-nature-forest-brand-plant_icon-icons.com_59259.ico",
@@ -471,7 +465,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 34,
+              "DocumentIndex": 36,
               "Title": "Page5.Designer.cs",
               "DocumentMoniker": "C:\\testePim\\urban_Green\\assets\\tela-de-login\\tela-de-login\\TelasDeCadastro\\Page5.Designer.cs",
               "RelativeDocumentMoniker": "tela-de-login\\TelasDeCadastro\\Page5.Designer.cs",
@@ -495,7 +489,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 25,
+              "DocumentIndex": 29,
               "Title": "alterarSenha.Designer.cs",
               "DocumentMoniker": "C:\\testePim\\urban_Green\\assets\\tela-de-login\\tela-de-login\\Redefinir-Senha\\Redefinir Senha\\alterarSenha.Designer.cs",
               "RelativeDocumentMoniker": "tela-de-login\\Redefinir-Senha\\Redefinir Senha\\alterarSenha.Designer.cs",
@@ -507,7 +501,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 30,
+              "DocumentIndex": 32,
               "Title": "Page4.Designer.cs",
               "DocumentMoniker": "C:\\testePim\\urban_Green\\assets\\tela-de-login\\tela-de-login\\TelasDeCadastro\\Page4.Designer.cs",
               "RelativeDocumentMoniker": "tela-de-login\\TelasDeCadastro\\Page4.Designer.cs",
@@ -531,7 +525,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 31,
+              "DocumentIndex": 33,
               "Title": "tela-de-login.AssemblyInfo.cs",
               "DocumentMoniker": "C:\\testePim\\urban_Green\\assets\\tela-de-login\\tela-de-login\\obj\\Debug\\net8.0-windows10.0.26100.0\\tela-de-login.AssemblyInfo.cs",
               "RelativeDocumentMoniker": "tela-de-login\\obj\\Debug\\net8.0-windows10.0.26100.0\\tela-de-login.AssemblyInfo.cs",
@@ -555,7 +549,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 17,
+              "DocumentIndex": 22,
               "Title": "Microsoft.Common.CurrentVersion.targets",
               "DocumentMoniker": "C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\MSBuild\\Current\\Bin\\amd64\\Microsoft.Common.CurrentVersion.targets",
               "RelativeDocumentMoniker": "..\\..\\..\\..\\Program Files\\Microsoft Visual Studio\\2022\\Community\\MSBuild\\Current\\Bin\\amd64\\Microsoft.Common.CurrentVersion.targets",
@@ -567,7 +561,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 21,
+              "DocumentIndex": 26,
               "Title": "Program.cs",
               "DocumentMoniker": "C:\\testePim\\urban_Green\\assets\\tela-de-login\\tela-de-login\\Program.cs",
               "RelativeDocumentMoniker": "tela-de-login\\Program.cs",
@@ -579,7 +573,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 20,
+              "DocumentIndex": 25,
               "Title": "Program.cs",
               "DocumentMoniker": "C:\\testePim\\urban_Green\\assets\\tela-de-login\\tela-de-login\\TelasDeCadastro\\Program.cs",
               "RelativeDocumentMoniker": "tela-de-login\\TelasDeCadastro\\Program.cs",
@@ -591,7 +585,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 19,
+              "DocumentIndex": 24,
               "Title": "Program.cs",
               "DocumentMoniker": "C:\\testePim\\urban_Green\\assets\\tela-de-login\\tela-de-login\\Redefinir-Senha\\Redefinir Senha\\Program.cs",
               "RelativeDocumentMoniker": "tela-de-login\\Redefinir-Senha\\Redefinir Senha\\Program.cs",
@@ -603,7 +597,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 10,
+              "DocumentIndex": 18,
               "Title": "Page2.cs",
               "DocumentMoniker": "C:\\testePim\\urban_Green\\assets\\tela-de-login\\tela-de-login\\TelasDeCadastro\\Page2.cs",
               "RelativeDocumentMoniker": "tela-de-login\\TelasDeCadastro\\Page2.cs",
@@ -628,7 +622,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
+              "DocumentIndex": 0,
               "Title": "Tela-Inicial-Dashboard.cs [Projeto]",
               "DocumentMoniker": "C:\\testePim\\urban_Green\\assets\\tela-de-login\\tela-de-login\\tela-inicial-do-programa\\tela_inicial_do_programa\\Tela-Inicial-Dashboard.cs",
               "RelativeDocumentMoniker": "tela-de-login\\tela-inicial-do-programa\\tela_inicial_do_programa\\Tela-Inicial-Dashboard.cs",
@@ -639,100 +633,96 @@
               "EditorCaption": " [Projeto]"
             },
             {
-              "$type": "Document",
-              "DocumentIndex": 27,
-              "Title": "Form1.cs [Design]",
-              "DocumentMoniker": "C:\\testePim\\urban_Green\\assets\\tela-de-login\\tela-de-login\\Form1.cs",
-              "RelativeDocumentMoniker": "tela-de-login\\Form1.cs",
-              "ToolTip": "C:\\testePim\\urban_Green\\assets\\tela-de-login\\tela-de-login\\Form1.cs [Design]",
-              "RelativeToolTip": "tela-de-login\\Form1.cs [Design]",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-10-11T20:58:44.866Z",
-              "EditorCaption": " [Design]"
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{e5c86464-96be-4d7c-9a8b-abcb3bbf5f92}"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 12,
-              "Title": "Page5.cs [Design]",
-              "DocumentMoniker": "C:\\testePim\\urban_Green\\assets\\tela-de-login\\tela-de-login\\TelasDeCadastro\\Page5.cs",
-              "RelativeDocumentMoniker": "tela-de-login\\TelasDeCadastro\\Page5.cs",
-              "ToolTip": "C:\\testePim\\urban_Green\\assets\\tela-de-login\\tela-de-login\\TelasDeCadastro\\Page5.cs [Design]",
-              "RelativeToolTip": "tela-de-login\\TelasDeCadastro\\Page5.cs [Design]",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-10-23T21:04:54.369Z",
-              "EditorCaption": " [Design]"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 29,
-              "Title": "Page3.cs [Design]",
-              "DocumentMoniker": "C:\\testePim\\urban_Green\\assets\\tela-de-login\\tela-de-login\\TelasDeCadastro\\Page3.cs",
-              "RelativeDocumentMoniker": "tela-de-login\\TelasDeCadastro\\Page3.cs",
-              "ToolTip": "C:\\testePim\\urban_Green\\assets\\tela-de-login\\tela-de-login\\TelasDeCadastro\\Page3.cs [Design]",
-              "RelativeToolTip": "tela-de-login\\TelasDeCadastro\\Page3.cs [Design]",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-10-23T19:48:06.408Z",
-              "EditorCaption": " [Design]"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 28,
-              "Title": "Page1.cs [Design]",
+              "DocumentIndex": 6,
+              "Title": "Page1.cs [Projeto]",
               "DocumentMoniker": "C:\\testePim\\urban_Green\\assets\\tela-de-login\\tela-de-login\\TelasDeCadastro\\Page1.cs",
               "RelativeDocumentMoniker": "tela-de-login\\TelasDeCadastro\\Page1.cs",
-              "ToolTip": "C:\\testePim\\urban_Green\\assets\\tela-de-login\\tela-de-login\\TelasDeCadastro\\Page1.cs [Design]",
-              "RelativeToolTip": "tela-de-login\\TelasDeCadastro\\Page1.cs [Design]",
+              "ToolTip": "C:\\testePim\\urban_Green\\assets\\tela-de-login\\tela-de-login\\TelasDeCadastro\\Page1.cs [Projeto]",
+              "RelativeToolTip": "tela-de-login\\TelasDeCadastro\\Page1.cs [Projeto]",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-10-21T21:17:04.995Z",
-              "EditorCaption": " [Design]"
+              "WhenOpened": "2024-10-21T21:17:04.995Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 26,
-              "Title": "Criar_Nova_Senha.cs [Design]",
+              "DocumentIndex": 3,
+              "Title": "Form1.cs [Design - portugu\u00EAs (Brasil)]",
+              "DocumentMoniker": "C:\\testePim\\urban_Green\\assets\\tela-de-login\\tela-de-login\\Form1.cs",
+              "RelativeDocumentMoniker": "tela-de-login\\Form1.cs",
+              "ToolTip": "C:\\testePim\\urban_Green\\assets\\tela-de-login\\tela-de-login\\Form1.cs [Design - portugu\u00EAs (Brasil)]",
+              "RelativeToolTip": "tela-de-login\\Form1.cs [Design - portugu\u00EAs (Brasil)]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-10-11T20:58:44.866Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 20,
+              "Title": "Page5.cs [Projeto]",
+              "DocumentMoniker": "C:\\testePim\\urban_Green\\assets\\tela-de-login\\tela-de-login\\TelasDeCadastro\\Page5.cs",
+              "RelativeDocumentMoniker": "tela-de-login\\TelasDeCadastro\\Page5.cs",
+              "ToolTip": "C:\\testePim\\urban_Green\\assets\\tela-de-login\\tela-de-login\\TelasDeCadastro\\Page5.cs [Projeto]",
+              "RelativeToolTip": "tela-de-login\\TelasDeCadastro\\Page5.cs [Projeto]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-10-23T21:04:54.369Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 31,
+              "Title": "Page3.cs [Projeto]",
+              "DocumentMoniker": "C:\\testePim\\urban_Green\\assets\\tela-de-login\\tela-de-login\\TelasDeCadastro\\Page3.cs",
+              "RelativeDocumentMoniker": "tela-de-login\\TelasDeCadastro\\Page3.cs",
+              "ToolTip": "C:\\testePim\\urban_Green\\assets\\tela-de-login\\tela-de-login\\TelasDeCadastro\\Page3.cs [Projeto]",
+              "RelativeToolTip": "tela-de-login\\TelasDeCadastro\\Page3.cs [Projeto]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-10-23T19:48:06.408Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 30,
+              "Title": "Criar_Nova_Senha.cs [Projeto]",
               "DocumentMoniker": "C:\\testePim\\urban_Green\\assets\\tela-de-login\\tela-de-login\\Redefinir-Senha\\Redefinir Senha\\Criar_Nova_Senha.cs",
               "RelativeDocumentMoniker": "tela-de-login\\Redefinir-Senha\\Redefinir Senha\\Criar_Nova_Senha.cs",
-              "ToolTip": "C:\\testePim\\urban_Green\\assets\\tela-de-login\\tela-de-login\\Redefinir-Senha\\Redefinir Senha\\Criar_Nova_Senha.cs [Design]",
-              "RelativeToolTip": "tela-de-login\\Redefinir-Senha\\Redefinir Senha\\Criar_Nova_Senha.cs [Design]",
+              "ToolTip": "C:\\testePim\\urban_Green\\assets\\tela-de-login\\tela-de-login\\Redefinir-Senha\\Redefinir Senha\\Criar_Nova_Senha.cs [Projeto]",
+              "RelativeToolTip": "tela-de-login\\Redefinir-Senha\\Redefinir Senha\\Criar_Nova_Senha.cs [Projeto]",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-10-19T12:51:39.78Z",
-              "EditorCaption": " [Design]"
+              "WhenOpened": "2024-10-19T12:51:39.78Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 18,
-              "Title": "alterarSenha.cs [Design]",
+              "DocumentIndex": 23,
+              "Title": "alterarSenha.cs [Design - portugu\u00EAs (Brasil)]",
               "DocumentMoniker": "C:\\testePim\\urban_Green\\assets\\tela-de-login\\tela-de-login\\Redefinir-Senha\\Redefinir Senha\\alterarSenha.cs",
               "RelativeDocumentMoniker": "tela-de-login\\Redefinir-Senha\\Redefinir Senha\\alterarSenha.cs",
-              "ToolTip": "C:\\testePim\\urban_Green\\assets\\tela-de-login\\tela-de-login\\Redefinir-Senha\\Redefinir Senha\\alterarSenha.cs [Design]",
-              "RelativeToolTip": "tela-de-login\\Redefinir-Senha\\Redefinir Senha\\alterarSenha.cs [Design]",
+              "ToolTip": "C:\\testePim\\urban_Green\\assets\\tela-de-login\\tela-de-login\\Redefinir-Senha\\Redefinir Senha\\alterarSenha.cs [Design - portugu\u00EAs (Brasil)]",
+              "RelativeToolTip": "tela-de-login\\Redefinir-Senha\\Redefinir Senha\\alterarSenha.cs [Design - portugu\u00EAs (Brasil)]",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-10-19T13:48:51.22Z",
-              "EditorCaption": " [Design]"
+              "WhenOpened": "2024-10-19T13:48:51.22Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 14,
-              "Title": "Page4.cs [Design]",
+              "DocumentIndex": 21,
+              "Title": "Page4.cs [Projeto]",
               "DocumentMoniker": "C:\\testePim\\urban_Green\\assets\\tela-de-login\\tela-de-login\\TelasDeCadastro\\Page4.cs",
               "RelativeDocumentMoniker": "tela-de-login\\TelasDeCadastro\\Page4.cs",
-              "ToolTip": "C:\\testePim\\urban_Green\\assets\\tela-de-login\\tela-de-login\\TelasDeCadastro\\Page4.cs [Design]",
-              "RelativeToolTip": "tela-de-login\\TelasDeCadastro\\Page4.cs [Design]",
+              "ToolTip": "C:\\testePim\\urban_Green\\assets\\tela-de-login\\tela-de-login\\TelasDeCadastro\\Page4.cs [Projeto]",
+              "RelativeToolTip": "tela-de-login\\TelasDeCadastro\\Page4.cs [Projeto]",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-10-18T21:18:27.113Z",
-              "EditorCaption": " [Design]"
+              "WhenOpened": "2024-10-18T21:18:27.113Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 9,
-              "Title": "Page2.cs [Design]",
+              "DocumentIndex": 17,
+              "Title": "Page2.cs [Projeto]",
               "DocumentMoniker": "C:\\testePim\\urban_Green\\assets\\tela-de-login\\tela-de-login\\TelasDeCadastro\\Page2.cs",
               "RelativeDocumentMoniker": "tela-de-login\\TelasDeCadastro\\Page2.cs",
-              "ToolTip": "C:\\testePim\\urban_Green\\assets\\tela-de-login\\tela-de-login\\TelasDeCadastro\\Page2.cs [Design]",
-              "RelativeToolTip": "tela-de-login\\TelasDeCadastro\\Page2.cs [Design]",
+              "ToolTip": "C:\\testePim\\urban_Green\\assets\\tela-de-login\\tela-de-login\\TelasDeCadastro\\Page2.cs [Projeto]",
+              "RelativeToolTip": "tela-de-login\\TelasDeCadastro\\Page2.cs [Projeto]",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-10-18T21:06:18.94Z",
-              "EditorCaption": " [Design]"
+              "WhenOpened": "2024-10-18T21:06:18.94Z"
             }
           ]
         }
