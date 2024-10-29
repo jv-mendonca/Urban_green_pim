@@ -1,0 +1,20 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="Current" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Compile Update="Page1.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Update="Page2.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Update="Page3.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Update="Page4.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Update="Page5.cs">
+      <SubType>Form</SubType>
+    </Compile>
+  </ItemGroup>
+</Project>

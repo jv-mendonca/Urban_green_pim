@@ -1,0 +1,75 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Users\\joaok\\OneDrive\\cmder\\Urban-Green-Project-Pim\\assets\\tela-de-login\\tela-de-login\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\joaok\\OneDrive\\cmder\\Urban-Green-Project-Pim\\assets\\tela-de-login\\tela-de-login\\tela-de-login.csproj.user||{FA3CD31E-987B-443A-9B81-186104E8DAC1}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:tela-de-login.csproj.user||{FA3CD31E-987B-443A-9B81-186104E8DAC1}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\joaok\\OneDrive\\cmder\\Urban-Green-Project-Pim\\assets\\tela-de-login\\tela-de-login\\Form1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:Form1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\joaok\\OneDrive\\cmder\\Urban-Green-Project-Pim\\assets\\tela-de-login\\tela-de-login\\tela-de-login.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:tela-de-login.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 249,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 3,
+          "Children": [
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{e5c86464-96be-4d7c-9a8b-abcb3bbf5f92}"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "tela-de-login.csproj",
+              "DocumentMoniker": "C:\\Users\\joaok\\OneDrive\\cmder\\Urban-Green-Project-Pim\\assets\\tela-de-login\\tela-de-login\\tela-de-login.csproj",
+              "RelativeDocumentMoniker": "tela-de-login.csproj",
+              "ToolTip": "C:\\Users\\joaok\\OneDrive\\cmder\\Urban-Green-Project-Pim\\assets\\tela-de-login\\tela-de-login\\tela-de-login.csproj",
+              "RelativeToolTip": "tela-de-login.csproj",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000758|",
+              "WhenOpened": "2024-10-16T22:03:03.566Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "Form1.cs",
+              "DocumentMoniker": "C:\\Users\\joaok\\OneDrive\\cmder\\Urban-Green-Project-Pim\\assets\\tela-de-login\\tela-de-login\\Form1.cs",
+              "RelativeDocumentMoniker": "Form1.cs",
+              "ToolTip": "C:\\Users\\joaok\\OneDrive\\cmder\\Urban-Green-Project-Pim\\assets\\tela-de-login\\tela-de-login\\Form1.cs",
+              "RelativeToolTip": "Form1.cs",
+              "ViewState": "AgIAAGYAAAAAAAAAAAAAAL8AAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-10-16T22:02:55.887Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "tela-de-login.csproj.user",
+              "DocumentMoniker": "C:\\Users\\joaok\\OneDrive\\cmder\\Urban-Green-Project-Pim\\assets\\tela-de-login\\tela-de-login\\tela-de-login.csproj.user",
+              "RelativeDocumentMoniker": "tela-de-login.csproj.user",
+              "ToolTip": "C:\\Users\\joaok\\OneDrive\\cmder\\Urban-Green-Project-Pim\\assets\\tela-de-login\\tela-de-login\\tela-de-login.csproj.user",
+              "RelativeToolTip": "tela-de-login.csproj.user",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003464|",
+              "WhenOpened": "2024-10-16T22:02:50.46Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

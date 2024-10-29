@@ -1,0 +1,57 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Users\\joaok\\OneDrive\\cmder\\\u00C1rea de Trabalho\\tela-inicial-do-programa\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{E43ECA70-F9AD-4EC6-9749-8BE8EA05278B}|tela_inicial_do_programa\\tela_inicial_do_programa.csproj|c:\\users\\joaok\\onedrive\\cmder\\\u00E1rea de trabalho\\tela-inicial-do-programa\\tela_inicial_do_programa\\tela-inicial-dashboard.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{E43ECA70-F9AD-4EC6-9749-8BE8EA05278B}|tela_inicial_do_programa\\tela_inicial_do_programa.csproj|solutionrelative:tela_inicial_do_programa\\tela-inicial-dashboard.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E43ECA70-F9AD-4EC6-9749-8BE8EA05278B}|tela_inicial_do_programa\\tela_inicial_do_programa.csproj|c:\\users\\joaok\\onedrive\\cmder\\\u00E1rea de trabalho\\tela-inicial-do-programa\\tela_inicial_do_programa\\tela-inicial-dashboard.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{E43ECA70-F9AD-4EC6-9749-8BE8EA05278B}|tela_inicial_do_programa\\tela_inicial_do_programa.csproj|solutionrelative:tela_inicial_do_programa\\tela-inicial-dashboard.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 0,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "Tela-Inicial-Dashboard.cs",
+              "DocumentMoniker": "C:\\Users\\joaok\\OneDrive\\cmder\\\u00C1rea de Trabalho\\tela-inicial-do-programa\\tela_inicial_do_programa\\Tela-Inicial-Dashboard.cs",
+              "RelativeDocumentMoniker": "tela_inicial_do_programa\\Tela-Inicial-Dashboard.cs",
+              "ToolTip": "C:\\Users\\joaok\\OneDrive\\cmder\\\u00C1rea de Trabalho\\tela-inicial-do-programa\\tela_inicial_do_programa\\Tela-Inicial-Dashboard.cs*",
+              "RelativeToolTip": "tela_inicial_do_programa\\Tela-Inicial-Dashboard.cs*",
+              "ViewState": "AgIAAAkAAAAAAAAAAAAmwCQAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-10-27T13:44:16.458Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{e5c86464-96be-4d7c-9a8b-abcb3bbf5f92}"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "Tela-Inicial-Dashboard.cs [Projeto]",
+              "DocumentMoniker": "C:\\Users\\joaok\\OneDrive\\cmder\\\u00C1rea de Trabalho\\tela-inicial-do-programa\\tela_inicial_do_programa\\Tela-Inicial-Dashboard.cs",
+              "RelativeDocumentMoniker": "tela_inicial_do_programa\\Tela-Inicial-Dashboard.cs",
+              "ToolTip": "C:\\Users\\joaok\\OneDrive\\cmder\\\u00C1rea de Trabalho\\tela-inicial-do-programa\\tela_inicial_do_programa\\Tela-Inicial-Dashboard.cs [Projeto]*",
+              "RelativeToolTip": "tela_inicial_do_programa\\Tela-Inicial-Dashboard.cs [Projeto]*",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-10-24T21:03:01.265Z",
+              "EditorCaption": " [Projeto]"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
