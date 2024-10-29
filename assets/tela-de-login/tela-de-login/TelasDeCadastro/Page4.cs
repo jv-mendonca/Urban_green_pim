@@ -16,7 +16,7 @@ namespace TelasDeCadastro
         {
             InitializeComponent();
             this.codFuncionario = codFuncionario;
-
+            this.AutoScaleMode = AutoScaleMode.Dpi; // Ajusta para o DPI do sistema
             // Inicializa a classe BancoDeDados com o nome do banco
             bancoDeDados = new BancoDeDados("fazenda_urbana_Urban_Green_pim4");
 

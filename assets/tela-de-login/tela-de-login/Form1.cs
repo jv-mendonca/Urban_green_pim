@@ -15,6 +15,7 @@ namespace tela_de_login
         public Form1()
         {
             InitializeComponent();
+            this.AutoScaleMode = AutoScaleMode.Dpi; // Ajusta para o DPI do sistema
             ConfigurarFormulario();
             CriarBancoDeDados(); // Criar banco de dados e tabelas ao inicializar o formulário
         }
@@ -52,7 +53,6 @@ namespace tela_de_login
         private void ConfigurarFormulario()
         {
             input_senha.UseSystemPasswordChar = true; // Esconder caracteres da senha
-            this.FormBorderStyle = FormBorderStyle.None; // Remover bordas
             Region = Region.FromHrgn(CreateRoundRectRgn(0, 0, Width, Height, 20, 20)); // Bordas arredondadas
         }
 
@@ -187,7 +187,11 @@ namespace tela_de_login
 
         private void linkLabel1_LinkClicked(object sender, LinkLabelLinkClickedEventArgs e)
         {
-
+            this.Hide();
+            alterarSenha alterarSenha = new alterarSenha();
+            alterarSenha.Show();
         }
+
+       
     }
 }

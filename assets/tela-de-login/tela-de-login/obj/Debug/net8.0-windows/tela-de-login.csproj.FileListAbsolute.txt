@@ -134,7 +134,6 @@ C:\testePim\urban_Green\assets\tela-de-login\tela-de-login\obj\Debug\net8.0-wind
 C:\testePim\urban_Green\assets\tela-de-login\tela-de-login\obj\Debug\net8.0-windows\tela-de-login.AssemblyInfoInputs.cache
 C:\testePim\urban_Green\assets\tela-de-login\tela-de-login\obj\Debug\net8.0-windows\tela-de-login.AssemblyInfo.cs
 C:\testePim\urban_Green\assets\tela-de-login\tela-de-login\obj\Debug\net8.0-windows\tela-de-login.csproj.CoreCompileInputs.cache
-C:\testePim\urban_Green\assets\tela-de-login\tela-de-login\obj\Debug\net8.0-windows\tela-de-login.sourcelink.json
 C:\testePim\urban_Green\assets\tela-de-login\tela-de-login\obj\Debug\net8.0-windows\pt-BR\te_de_login.resources.dll
 C:\testePim\urban_Green\assets\tela-de-login\tela-de-login\obj\Debug\net8.0-windows\tela-de-.9770714D.Up2Date
 C:\testePim\urban_Green\assets\tela-de-login\tela-de-login\obj\Debug\net8.0-windows\te_de_login.dll

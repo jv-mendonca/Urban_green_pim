@@ -19,8 +19,11 @@ namespace tela_inicial_do_programa
             connectionString = $"Server=mendonça\\SQLEXPRESS;Database={nomeBanco};Trusted_Connection=True;TrustServerCertificate=True;";
             InitializeComponent();
             CarregarPlantacao();
-            CalcularMediaAguaPorHora(); // Chamar o método aqui
+            CalcularMediaAguaPorHora(); // Chama o método para calcular a média de água
+            CalcularMediaLuzPorHora(); // Chama o método para calcular a média de luz
+            CarregarTemperatura(); // Chama o método para carregar a temperatura
             ExibirMonitoramento(currentIndex); // Exibir o monitoramento inicial
+            this.AutoScaleMode = AutoScaleMode.Dpi; // Ajusta para o DPI do sistema
         }
 
         private void CalcularMediaAguaPorHora()
@@ -33,42 +36,71 @@ namespace tela_inicial_do_programa
             JOIN controle_Agua c ON p.cod_plantacao = c.cod_plantacao
             GROUP BY p.cod_plantacao";
 
-            try
+            ExecutarConsulta(query, reader =>
             {
-                using (SqlConnection con = new SqlConnection(connectionString))
+                int codPlantacao = reader.GetInt32(0);
+                decimal totalAguaGasta = reader.IsDBNull(1) ? 0 : reader.GetDecimal(1);
+                int totalMinutos = reader.IsDBNull(2) ? 0 : reader.GetInt32(2);
+                double totalHoras = (double)totalMinutos / 60.0;
+
+                var monitoramento = monitoramentos.Find(m => m.CodPlantacao == codPlantacao);
+                if (monitoramento != null)
                 {
-                    SqlCommand cmd = new SqlCommand(query, con);
-                    con.Open();
-
-                    using (SqlDataReader reader = cmd.ExecuteReader())
-                    {
-                        while (reader.Read())
-                        {
-                            int codPlantacao = reader.GetInt32(0);
-                            decimal totalAguaGasta = reader.IsDBNull(1) ? 0 : reader.GetDecimal(1);
-                            int totalMinutos = reader.IsDBNull(2) ? 0 : reader.GetInt32(2);
-                            double totalHoras = (double)totalMinutos / 60.0;
-                            double mediaAguaPorHora = totalHoras > 0 ? (double)(totalAguaGasta / (decimal)totalHoras) : 0; // Evita divisão por zero
-
-                            // Atualiza o monitoramento correspondente
-                            var monitoramento = monitoramentos.Find(m => m.CodPlantacao == codPlantacao);
-                            if (monitoramento != null)
-                            {
-                                monitoramento.MediaAguaPorHora = mediaAguaPorHora; // Armazena a média
-                            }
-                        }
-                    }
+                    monitoramento.MediaAguaPorHora = totalHoras > 0 ? (double)(totalAguaGasta / (decimal)totalHoras) : 0;
                 }
-            }
-            catch (SqlException sqlEx)
-            {
-                MessageBox.Show("Erro ao acessar o banco de dados: " + sqlEx.Message);
-            }
-            catch (Exception ex)
-            {
-                MessageBox.Show("Erro: " + ex.Message);
-            }
+            });
         }
+
+        private void CalcularMediaLuzPorHora()
+        {
+            string query = @"
+    SELECT p.cod_plantacao, 
+           SUM(DATEDIFF(HOUR, c.hora_inicial, c.hora_final)) AS TotalHoras,
+           SUM(DATEDIFF(MINUTE, c.hora_inicial, c.hora_final)) AS TotalMinutos,
+           COUNT(*) AS TotalRegistros
+    FROM Plantacao p
+    JOIN controle_Luz c ON p.cod_plantacao = c.cod_plantacao
+    GROUP BY p.cod_plantacao";
+
+            ExecutarConsulta(query, reader =>
+            {
+                int codPlantacao = reader.GetInt32(0);
+                int totalHoras = reader.IsDBNull(1) ? 0 : reader.GetInt32(1);
+                int totalMinutos = reader.IsDBNull(2) ? 0 : reader.GetInt32(2);
+                int totalRegistros = reader.IsDBNull(3) ? 0 : reader.GetInt32(3);
+
+                // Cálculo da média de luz gasta por hora
+                double mediaLuzPorHora = totalRegistros > 0 ? (double)totalMinutos / totalRegistros : 0;
+
+                // Ajuste para que 6000.00% se torne 60.00%
+                double intensidadeLuz = totalHoras > 0 ? (mediaLuzPorHora / totalHoras) * 100 / 100 : 0;
+
+                var monitoramento = monitoramentos.Find(m => m.CodPlantacao == codPlantacao);
+                if (monitoramento != null)
+                {
+                    monitoramento.MediaLuzPorHora = intensidadeLuz; // Armazena a intensidade
+                }
+            });
+        }
+
+        private void CarregarTemperatura()
+        {
+            string query = @"
+    SELECT TOP 1 valor_temperatura 
+    FROM controle_temperatura 
+    ORDER BY data_registro DESC";
+
+            ExecutarConsulta(query, reader =>
+            {
+                if (reader.Read())
+                {
+                    decimal valorTemperatura = reader.IsDBNull(0) ? 0 : reader.GetDecimal(0);
+                    txtTemperatura.Text = $"{valorTemperatura:F2} °C"; // Exibe a temperatura no controle
+                }
+            });
+        }
+
+
 
         private void CarregarPlantacao()
         {
@@ -80,6 +112,30 @@ namespace tela_inicial_do_programa
             LEFT JOIN controle_Agua c ON p.cod_plantacao = c.cod_plantacao
             GROUP BY p.cod_plantacao, p.especie, p.tipo_plantacao, p.data_plantio, p.data_prevista, p.saude_plantacao";
 
+            ExecutarConsulta(query, reader =>
+            {
+                decimal totalAguaGasta = reader.IsDBNull(6) ? 0 : reader.GetDecimal(6);
+                int totalMinutos = reader.IsDBNull(7) ? 0 : reader.GetInt32(7);
+                double totalHoras = totalMinutos / 60.0;
+
+                double porcentagemAguaGasta = totalHoras > 0 ? ((double)totalAguaGasta / totalHoras) * 100 : 0;
+
+                Monitoramento monitoramento = new Monitoramento
+                {
+                    CodPlantacao = Convert.ToInt32(reader["cod_plantacao"]),
+                    Especie = reader["especie"].ToString(),
+                    TipoPlantacao = reader["tipo_plantacao"].ToString(),
+                    DataPlantio = Convert.ToDateTime(reader["data_plantio"]),
+                    DataPrevista = Convert.ToDateTime(reader["data_prevista"]),
+                    Saude = reader["saude_plantacao"].ToString(),
+                    PorcentagemAguaGasta = porcentagemAguaGasta,
+                };
+                monitoramentos.Add(monitoramento);
+            });
+        }
+
+        private void ExecutarConsulta(string query, Action<SqlDataReader> action)
+        {
             try
             {
                 using (SqlConnection con = new SqlConnection(connectionString))
@@ -91,24 +147,7 @@ namespace tela_inicial_do_programa
                     {
                         while (reader.Read())
                         {
-                            decimal totalAguaGasta = reader.IsDBNull(6) ? 0 : reader.GetDecimal(6);
-                            int totalMinutos = reader.IsDBNull(7) ? 0 : reader.GetInt32(7);
-                            double totalHoras = totalMinutos / 60.0;
-
-                            // Cálculo da porcentagem de água gasta
-                            double porcentagemAguaGasta = totalHoras > 0 ? ((double)totalAguaGasta / totalHoras) * 100 : 0;
-
-                            Monitoramento monitoramento = new Monitoramento
-                            {
-                                CodPlantacao = Convert.ToInt32(reader["cod_plantacao"]),
-                                Especie = reader["especie"].ToString(),
-                                TipoPlantacao = reader["tipo_plantacao"].ToString(),
-                                DataPlantio = Convert.ToDateTime(reader["data_plantio"]),
-                                DataPrevista = Convert.ToDateTime(reader["data_prevista"]),
-                                Saude = reader["saude_plantacao"].ToString(),
-                                PorcentagemAguaGasta = porcentagemAguaGasta, // Armazena a porcentagem calculada
-                            };
-                            monitoramentos.Add(monitoramento);
+                            action(reader);
                         }
                     }
                 }
@@ -134,13 +173,17 @@ namespace tela_inicial_do_programa
                 txtPrevisao.Text = FormatarData(monitoramento.DataPrevista);
                 AtualizarSaude(monitoramento.Saude);
 
-                // Exibe a média de água por hora sem formatação adicional
-                txtAgua.Text = monitoramento.MediaAguaPorHora.ToString("F2") + "%"; // Mostra o valor diretamente
+                txtAgua.Text = $"{monitoramento.MediaAguaPorHora:F2}%"; // Exibe a média de água
+                txtLuz.Text = $"{monitoramento.MediaLuzPorHora:F2}%"; // Exibe a média de luz
+                txtTemperatura.Text = $"{monitoramento.Temperatura:F2} °C"; // Exibe a temperatura
 
                 CentralizarControleNaCaixa(txtEspecie, caixaEspecie);
                 CentralizarControleNaCaixa(txtTipo, caixaTipo);
                 CentralizarControleNaCaixa(txtDataDePLantio, caixaPlantado);
                 CentralizarControleNaCaixa(txtPrevisao, caixaPrevisao);
+                CentralizarControleNaCaixa(txtLuz, caixaLuz);
+                CentralizarControleNaCaixa(txtAgua, caixaAgua);
+                CentralizarControleNaCaixa(txtTemperatura, caixaTemperatura); // Certifique-se de ter uma caixa para a temperatura
                 PosicionarSaudeNaParteInferior();
             }
         }
@@ -165,7 +208,7 @@ namespace tela_inicial_do_programa
                     break;
                 case "Cuidado":
                     txtSaude.ForeColor = Color.Yellow;
-                    imagemFolha.Image = Image.FromFile($"{caminhoImagens}folha_amarela.png");
+                    imagemFolha.Image = Image.FromFile($"{caminhoImagens}folha_amarelaPIM.png");
                     break;
                 case "Perigo":
                     txtSaude.ForeColor = Color.Red;
@@ -173,12 +216,40 @@ namespace tela_inicial_do_programa
                     break;
                 default:
                     txtSaude.ForeColor = Color.Black;
-                    imagemFolha.Image = null;
                     break;
-            }
 
-            CentralizarImagemNaCaixa(); // Certifique-se de que isso é chamado
-            PosicionarSaudeNaParteInferior(); // Reposicione o texto também
+
+
+            }
+            CentralizarImagemNaCaixa(); // Adicionando a centralização da imagem
+            PosicionarSaudeNaParteInferior();
+        }
+
+        private void CentralizarControleNaCaixa(Control controle, Control caixa)
+        {
+            controle.Left = (caixa.Width - controle.Width) / 2;
+            controle.Top = (caixa.Height - controle.Height) / 2;
+        }
+
+        private void CentralizarImagemNaCaixa()
+        {
+            if (imagemFolha.Image != null)
+            {
+                imagemFolha.SizeMode = PictureBoxSizeMode.Zoom; // Ajusta o modo de exibição da imagem
+                imagemFolha.Location = new Point(
+                    (caixaSaude.Width - imagemFolha.Width) / 2,
+                    (caixaSaude.Height - imagemFolha.Height) / 2
+                );
+            }
+        }
+
+        private void PosicionarSaudeNaParteInferior()
+        {
+            int verticalOffset = 10;
+            txtSaude.Location = new Point(
+                (caixaSaude.Width - txtSaude.Width) / 2,
+                caixaSaude.Height - txtSaude.Height - verticalOffset
+            );
         }
 
         private void Próximo_Click(object sender, EventArgs e)
@@ -209,45 +280,20 @@ namespace tela_inicial_do_programa
             }
         }
 
-        private void CentralizarControleNaCaixa(Control controle, Control caixa)
-        {
-            controle.Location = new Point(
-                (caixa.Width - controle.Width) / 2,
-                (caixa.Height - controle.Height) / 2
-            );
-        }
+       
+    }
 
-        private void PosicionarSaudeNaParteInferior()
-        {
-            int verticalOffset = 10;
-            txtSaude.Location = new Point(
-                (caixaSaude.Width - txtSaude.Width) / 2,
-                caixaSaude.Height - txtSaude.Height - verticalOffset
-            );
-        }
-
-        private void CentralizarImagemNaCaixa()
-        {
-            if (imagemFolha.Image != null)
-            {
-                imagemFolha.SizeMode = PictureBoxSizeMode.Zoom;
-                imagemFolha.Location = new Point(
-                    (caixaSaude.Width - imagemFolha.Width) / 2,
-                    (caixaSaude.Height - imagemFolha.Height) / 2
-                );
-            }
-        }
-
-        public class Monitoramento
-        {
-            public int CodPlantacao { get; set; }
-            public string Especie { get; set; }
-            public string TipoPlantacao { get; set; }
-            public DateTime DataPlantio { get; set; }
-            public DateTime DataPrevista { get; set; }
-            public string Saude { get; set; }
-            public double PorcentagemAguaGasta { get; set; }
-            public double MediaAguaPorHora { get; set; } // Armazena a média
-        }
+    public class Monitoramento
+    {
+        public int CodPlantacao { get; set; }
+        public string Especie { get; set; }
+        public string TipoPlantacao { get; set; }
+        public DateTime DataPlantio { get; set; }
+        public DateTime DataPrevista { get; set; }
+        public string Saude { get; set; }
+        public double PorcentagemAguaGasta { get; set; }
+        public double MediaAguaPorHora { get; set; }
+        public double MediaLuzPorHora { get; set; }
+        public decimal Temperatura { get; set; } // Adicione esta linha
     }
 }

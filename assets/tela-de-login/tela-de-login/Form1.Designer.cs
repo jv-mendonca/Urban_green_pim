@@ -538,7 +538,7 @@
             // Form1
             // 
             resources.ApplyResources(this, "$this");
-            AutoScaleMode = AutoScaleMode.Font;
+            AutoScaleMode = AutoScaleMode.Dpi;
             BackColor = Color.White;
             BackgroundImage = tela_de_logins.Properties.Resources.banner11;
             Controls.Add(nav_links);

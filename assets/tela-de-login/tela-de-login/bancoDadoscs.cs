@@ -383,6 +383,8 @@ BEGIN
         cod_plantacao INT NOT NULL,  -- Código da plantação
         hora_inicial TIME,  -- Hora inicial
         hora_final TIME,  -- Hora final
+        duracao_luz Time,
+        intensidade_luz DECIMAL(5, 2),
         data_inicial DATE,  -- Data inicial
         data_final DATE,  -- Data final
         fonte_luz VARCHAR(100),  -- Fonte da luz

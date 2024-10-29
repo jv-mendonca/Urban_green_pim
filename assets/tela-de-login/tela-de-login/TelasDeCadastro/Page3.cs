@@ -17,6 +17,7 @@ namespace TelasDeCadastro
             InitializeComponent();
             bancoDeDados = new BancoDeDados("fazenda_urbana_Urban_Green_pim4");
             this.codFuncionario = codFuncionario;
+            this.AutoScaleMode = AutoScaleMode.Dpi; // Ajusta para o DPI do sistema
             CarregarEstados(); // Carrega os estados no ComboBox
             this.FormClosing += new FormClosingEventHandler(Page3_FormClosing); // Adiciona o manipulador de eventos
         }

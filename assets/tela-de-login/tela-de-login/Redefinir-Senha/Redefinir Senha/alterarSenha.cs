@@ -21,6 +21,7 @@ namespace Redefinir_Senha
             bancoDeDados = new BancoDeDados("fazenda_urbana_Urban_Green_pim4");
             bancoDeDados.CriarBancoDeDadosSeNaoExistir();
             bancoDeDados.CriarTabelasSeNaoExistirem();
+            this.AutoScaleMode = AutoScaleMode.Dpi; // Ajusta para o DPI do sistema
         }
 
         private void AlterarSenha_FormClosed(object sender, FormClosedEventArgs e)

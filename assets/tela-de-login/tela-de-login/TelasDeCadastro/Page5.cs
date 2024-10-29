@@ -16,6 +16,7 @@ namespace TelasDeCadastro
         public Page5()
         {
             InitializeComponent();
+            this.AutoScaleMode = AutoScaleMode.Dpi; // Ajusta para o DPI do sistema
         }
 
         private void guna2Button1_Click(object sender, EventArgs e)

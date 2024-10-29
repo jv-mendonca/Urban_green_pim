@@ -20,7 +20,7 @@ namespace TelasDeCadastro
             CentralizarPanel(); // Centraliza o painel ao inicializar
             this.Resize += Page1_Resize; // Adiciona o evento de redimensionamento
             this.FormClosing += Page1_FormClosing; // Adiciona o evento de fechamento do formulário
-
+            this.AutoScaleMode = AutoScaleMode.Dpi; // Ajusta para o DPI do sistema
             // Inicializa a classe BancoDeDados com o nome do banco
             bancoDeDados = new BancoDeDados("fazenda_urbana_Urban_Green_pim4");
 

@@ -20,15 +20,17 @@ namespace Redefinir_Senha
 
         public Criar_Nova_Senha(string codigoRecuperacao, string email, string ddi, string ddd, string numeroTelefone)
 {
-    InitializeComponent();
-    codigoVerificacao = codigoRecuperacao; // Inicializa o código de verificação
-    this.email = email; // Armazena o e-mail
-    this.ddi = ddi; // Atribui DDI recebido
-    this.ddd = ddd; // Atribui DDD recebido
-    this.numeroTelefone = numeroTelefone; // Atribui número de telefone recebido
-    tempoGeracaoCodigo = DateTime.Now; // Inicializa o tempo de geração
-    bancoDeDados = new BancoDeDados("fazenda_urbana_Urban_Green_pim4"); // Inicializa o banco de dados
-}
+        InitializeComponent();
+        codigoVerificacao = codigoRecuperacao; // Inicializa o código de verificação
+        this.email = email; // Armazena o e-mail
+        this.ddi = ddi; // Atribui DDI recebido
+        this.ddd = ddd; // Atribui DDD recebido
+        this.AutoScaleMode = AutoScaleMode.Dpi; // Ajusta para o DPI do sistema
+        this.numeroTelefone = numeroTelefone; // Atribui número de telefone recebido
+        tempoGeracaoCodigo = DateTime.Now; // Inicializa o tempo de geração
+        bancoDeDados = new BancoDeDados("fazenda_urbana_Urban_Green_pim4"); // Inicializa o banco de dados
+        this.AutoScaleMode = AutoScaleMode.Dpi; // Ajusta para o DPI do sistema
+        }
 
 
         private bool CodigoValido(string codigoDigitado)
